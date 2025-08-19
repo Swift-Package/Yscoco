@@ -1,6 +1,7 @@
 import Testing
 @testable import Yscoco
+@testable import YscocoOC
 
 @Test func example() async throws {
-    // Write your test here and use APIs like `#expect(...)` to check expected conditions.
+    #expect(("ABCD" as NSString).colonFormatting() == "AB:CD")
 }
