@@ -10,7 +10,7 @@
 @implementation NSString (MacAddress)
 
 #pragma mark - 每隔2个字符添加一个:的字符串算法
-- (NSString *)ColonFormatting {
+- (NSString *)colonFormatting {
     NSString *result = @"";
     int count = 0;
     for (int i = 0; i < self.length; i++) {

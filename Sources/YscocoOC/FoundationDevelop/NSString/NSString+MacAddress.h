@@ -12,7 +12,7 @@ NS_ASSUME_NONNULL_BEGIN
 @interface NSString (MacAddress)
 
 #pragma mark - 每隔2个字符添加一个:的字符串算法
-- (NSString *)ColonFormatting;
+- (NSString *)colonFormatting;
 
 @end
 
